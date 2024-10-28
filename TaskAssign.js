@@ -109,8 +109,7 @@ function assignTasksWithPriorityAndDependencies(developers, tasks) {
     }
   });
 
-  console.log("Developer Allocations:", devAllocations);
-  console.log("Unassigned Tasks with Reasons:", unassignedTasks);
+
 
   return { devAllocations, unassignedTasks };
 }
